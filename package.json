@@ -1,0 +1,48 @@
+{
+  "name": "beacn",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "babel-eslint": "^8.2.3",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.11.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.7.0",
+    "jest-expo": "26.0.0",
+    "react-native-scripts": "1.13.2",
+    "react-test-renderer": "16.3.0-alpha.1"
+  },
+  "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
+  "scripts": {
+    "start": "react-native-scripts start",
+    "eject": "react-native-scripts eject",
+    "android": "react-native-scripts android",
+    "ios": "react-native-scripts ios",
+    "test": "jest"
+  },
+  "jest": {
+    "preset": "jest-expo"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "expo": "^26.0.0",
+    "firebase": "^4.13.1",
+    "moment": "^2.22.1",
+    "native-base": "^2.4.2",
+    "react": "16.3.0",
+    "react-native": "^0.54.4",
+    "react-native-elements": "^0.19.1",
+    "react-native-firebase": "^4.1.0",
+    "react-native-keyboard-spacer": "^0.4.1",
+    "react-native-loading-spinner-overlay": "^0.5.2",
+    "react-native-maps": "^0.21.0",
+    "react-native-redux-listener": "^0.3.0",
+    "react-native-router-flux": "^4.0.0-beta.30",
+    "react-navigation": "^1.5.11",
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.0",
+    "redux-thunk": "^2.2.0",
+    "tcomb-form-native": "^0.6.11"
+  }
+}
