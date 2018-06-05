@@ -2,10 +2,10 @@ import React from 'react';
 import * as firebase from 'firebase';
 
 const firebaseConfig = {
-    apiKey: "AIzaSyBkcJ-VnMYi4zwucumHACQlmWO58MUBVbY",
-    authDomain: "beacn-292bc.firebaseapp.com",
-    databaseURL: "https://beacn-292bc.firebaseio.com",
-    storageBucket: "beacn-292bc.appspot.com",
+    apiKey: "ENTER HERE",
+    authDomain: "ENTER HERE",
+    databaseURL: "ENTER HERE",
+    storageBucket: "ENTER HERE",
   };
   
 firebase.initializeApp(firebaseConfig);
